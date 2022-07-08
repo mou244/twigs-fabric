@@ -16,7 +16,6 @@ import static net.minecraft.world.gen.GenerationStep.Feature.*;
 public final class TwigsPlacedFeaturesImpl implements TwigsPlacedFeatures, ModInitializer {
     @Override
     public void onInitialize() {
-        tryPlace(PATCH_TWIG, TwigsBiomeTags.SPAWNS_TWIG, VEGETAL_DECORATION);
         tryPlace(PATCH_PEBBLE, TwigsBiomeTags.SPAWNS_PEBBLE, VEGETAL_DECORATION);
         tryPlace(PATCH_SEA_SHELL, TwigsBiomeTags.SPAWNS_SEA_SHELL, VEGETAL_DECORATION);
         tryPlace(ORE_BLOODSTONE_NETHER, TwigsBiomeTags.SPAWNS_BLOODSTONE, UNDERGROUND_DECORATION);
